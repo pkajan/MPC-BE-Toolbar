@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="09-sound_off.svg">
+   sodipodi:docname="14-sound_off.svg">
   <defs
      id="defs2">
     <inkscape:perspective
@@ -43,7 +43,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="25.008928"
+     inkscape:cx="10.499999"
      inkscape:cy="36.142854"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,34 +73,34 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-280.06665)">
-    <circle
-       id="path3723"
-       cx="8.502512"
-       cy="288.5643"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       r="7.9375" />
-    <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.24492145;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 6.4207966,286.49928 -1.9347656,0.6444 0.020671,2.84066 1.914095,0.60668 z"
-       id="path8604"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.46499991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect8609"
-       width="0.047247026"
-       height="2.8820686"
-       x="2.2206101"
-       y="287.09229" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.3336916px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1333423"
-       x="9.4152555"
-       y="290.47745"
+       style="font-style:normal;font-weight:normal;font-size:6.20863199px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1552158"
+       x="9.3985939"
+       y="290.79639"
        id="text879"><tspan
          sodipodi:role="line"
          id="tspan877"
-         x="9.4152555"
-         y="290.47745"
-         style="stroke-width:0.1333423;-inkscape-font-specification:'sans-serif Bold';font-family:sans-serif;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">X</tspan></text>
+         x="9.3985939"
+         y="290.79639"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.1552158">X</tspan></text>
+    <circle
+       id="path3723-5"
+       cx="8.4666662"
+       cy="288.53333"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98199999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="7.7963891" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.1306715;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 6.5396491,286.60226 -1.8363003,0.6116 0.019619,2.6961 1.8166813,0.5758 z"
+       id="path8604"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.39044213;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8609"
+       width="0.0448425"
+       height="2.7353926"
+       x="2.553221"
+       y="287.16507" />
   </g>
 </svg>

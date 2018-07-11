@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="07-audio.svg">
+   sodipodi:docname="10-audio.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -36,7 +36,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="24.363704"
+     inkscape:cx="9.8547754"
      inkscape:cy="32.846678"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,12 +66,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-280.06665)">
-    <circle
-       id="path3723"
-       cx="8.502512"
-       cy="288.5643"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       r="7.9375" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.34444618px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -83,5 +77,11 @@
          x="2.9044363"
          y="293.27029"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.34444618px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';stroke-width:0.26458332">A</tspan></text>
+    <circle
+       id="path3723-5"
+       cx="8.4666662"
+       cy="288.53333"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.98199999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="7.7963891" />
   </g>
 </svg>
