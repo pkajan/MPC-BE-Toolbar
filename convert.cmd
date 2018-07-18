@@ -31,15 +31,15 @@ start /w "14" %inkscape%inkscape.exe "%svg_in%14-sound_off.svg" -e "%png_out%14-
 start /w "15" %inkscape%inkscape.exe "%svg_in%15-sound.svg" -e "%png_out%15-sound.png" -d %png_DPI%
 
 ::merge images into line
-%ImageMagick%magick.exe montage -background none -mode concatenate %png_out%01-play.png %png_out%02-pause.png %png_out%03-stop.png %png_out%04-empty.png %png_out%05-prev.png %png_out%06-next.png %png_out%07-step.png %png_out%08-open.png %png_out%09-empty.png %png_out%10-audio.png %png_out%11-subtitle.png %png_out%12-empty.png %png_out%13-sound_on.png %png_out%14-sound_off.png %png_out%15-sound.png -tile 15x %png_out%toolbar.png
+%ImageMagick%magick.exe montage -background none -mode concatenate %png_out%01-play.png %png_out%02-pause.png %png_out%03-stop.png %png_out%04-empty.png %png_out%05-prev.png %png_out%06-next.png %png_out%07-step.png %png_out%08-open.png %png_out%09-empty.png %png_out%10-audio.png %png_out%11-subtitle.png %png_out%12-empty.png %png_out%13-sound_on.png %png_out%14-sound_off.png %png_out%15-sound.png -tile 15x PNG32:%png_out%toolbar.png
 
 ::resize result
-%ImageMagick%magick.exe convert -geometry x32 %png_out%toolbar.png %resized_out%toolbar_032.png
-%ImageMagick%magick.exe convert -geometry x40 %png_out%toolbar.png %resized_out%toolbar_040.png
-%ImageMagick%magick.exe convert -geometry x48 %png_out%toolbar.png %resized_out%toolbar_048.png
-%ImageMagick%magick.exe convert -geometry x64 %png_out%toolbar.png %resized_out%toolbar_064.png
-%ImageMagick%magick.exe convert -geometry x128 %png_out%toolbar.png %resized_out%toolbar_128.png
-%ImageMagick%magick.exe convert -geometry x256 %png_out%toolbar.png %resized_out%toolbar_256.png
+%ImageMagick%magick.exe convert -geometry x32 %png_out%toolbar.png PNG32:%resized_out%toolbar_032.png
+%ImageMagick%magick.exe convert -geometry x40 %png_out%toolbar.png PNG32:%resized_out%toolbar_040.png
+%ImageMagick%magick.exe convert -geometry x48 %png_out%toolbar.png PNG32:%resized_out%toolbar_048.png
+%ImageMagick%magick.exe convert -geometry x64 %png_out%toolbar.png PNG32:%resized_out%toolbar_064.png
+%ImageMagick%magick.exe convert -geometry x128 %png_out%toolbar.png PNG32:%resized_out%toolbar_128.png
+%ImageMagick%magick.exe convert -geometry x256 %png_out%toolbar.png PNG32:%resized_out%toolbar_256.png
 
 pause
 
