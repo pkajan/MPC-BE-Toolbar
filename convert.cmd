@@ -1,10 +1,10 @@
 
 ::paths&settings
-SET inkscape=c:\toolbar\tools\inkscape\
-SET ImageMagick=c:\toolbar\tools\ImageMagick\
-SET svg_in=c:\toolbar\svg\
-SET png_out=c:\toolbar\png\
-SET resized_out=c:\toolbar\out\
+SET inkscape=%cd%\tools\inkscape\
+SET ImageMagick=%cd%\tools\ImageMagick\
+SET svg_in=%cd%\svg\
+SET png_out=%cd%\png\
+SET resized_out=%cd%\out\
 SET png_DPI=1000
 
 ::create/cleanup output dir
