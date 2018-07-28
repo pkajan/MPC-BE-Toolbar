@@ -5,7 +5,8 @@ SET ImageMagick=%cd%\tools\ImageMagick\
 SET svg_in=%cd%\svg\
 SET png_out=%cd%\png\
 SET resized_out=%cd%\out\
-SET png_DPI=1000
+SET png_DPI=2000
+SET reversecolor=-colorspace HSI -channel B -level 100,0%  +channel -colorspace sRGB
 
 ::create/cleanup output dir
 md %png_out%
@@ -40,6 +41,14 @@ start /w "15" %inkscape%inkscape.exe "%svg_in%15-sound.svg" -e "%png_out%15-soun
 %ImageMagick%magick.exe convert -geometry x64 %png_out%toolbar.png PNG32:%resized_out%toolbar_064.png
 %ImageMagick%magick.exe convert -geometry x128 %png_out%toolbar.png PNG32:%resized_out%toolbar_128.png
 %ImageMagick%magick.exe convert -geometry x256 %png_out%toolbar.png PNG32:%resized_out%toolbar_256.png
+
+::resize result and make it white
+%ImageMagick%magick.exe convert -geometry x32 %png_out%toolbar.png %reversecolor% PNG32:%resized_out%toolbar_w032.png
+%ImageMagick%magick.exe convert -geometry x40 %png_out%toolbar.png %reversecolor% PNG32:%resized_out%toolbar_w040.png
+%ImageMagick%magick.exe convert -geometry x48 %png_out%toolbar.png %reversecolor% PNG32:%resized_out%toolbar_w048.png
+%ImageMagick%magick.exe convert -geometry x64 %png_out%toolbar.png %reversecolor% PNG32:%resized_out%toolbar_w064.png
+%ImageMagick%magick.exe convert -geometry x128 %png_out%toolbar.png %reversecolor% PNG32:%resized_out%toolbar_w128.png
+%ImageMagick%magick.exe convert -geometry x256 %png_out%toolbar.png %reversecolor% PNG32:%resized_out%toolbar_w256.png
 
 pause
 
