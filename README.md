@@ -30,7 +30,10 @@ MPC-BE Toolbar: svg source + mass converter to png (using Inkscape&amp;ImageMagi
 ![alt text](https://tmp.pkajan.eu/mpc-be/no_circle_dark.png)
 
 
-How to:
+# **How to:**
+
 download ImageMagick portable and extract it to /tools/ImageMagick/ (or change path in convert.cmd)
+
 download inkscape compressed 7z and extract bin folder into /tools/Inkscape/ (or change path in convert.cmd)
+
 run convert.cmd or convert_no_circle.cmd or both
