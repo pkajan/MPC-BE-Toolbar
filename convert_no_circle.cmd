@@ -2,9 +2,9 @@
 ::paths&settings
 @SET inkscape=%cd%\tools\Inkscape\
 @SET ImageMagick=%cd%\tools\ImageMagick\
-@SET svg_in=%cd%\svg\
-@SET png_out=%cd%\png\
-@SET resized_out=%cd%\out\
+@SET svg_in=%cd%\svg_no_circle\
+@SET png_out=%cd%\png_no_circle\
+@SET resized_out=%cd%\out_no_circle\
 @SET png_DPI=20
 @SET reversecolor=-colorspace HSI -channel B -level 100,0%  +channel -colorspace sRGB
 
